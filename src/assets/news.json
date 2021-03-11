@@ -1,0 +1,20 @@
+[
+    {
+        "filename": "news-one.png",
+        "name": "Biono Genomics",
+        "date": "06/12/2020",
+        "time": "15:42:23",
+        "subname": "Fintec Zoom",
+        "description": "Biono Genomics Biono Genomics Biono Genomics",
+        "related": ["BNGO"]
+    },
+    {
+        "filename": "news-one.png",
+        "name": "Biono Genomics Share Price is Down 55% Over the",
+        "date": "06/12/2020",
+        "time": "15:42:23",
+        "subname": "Fintec Zoom",
+        "description": "Biono Genomics Biono Genomics Biono Genomics",
+        "related": ["BNGOW", "BNGO"]
+    }
+]

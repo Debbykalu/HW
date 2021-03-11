@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Health Care",
+        "percentValue": "0.40%",
+        "direction": "plus",
+        "filename": "health.png"
+    },
+    {
+        "name": "Communication Services",
+        "percentValue": "0.00%",
+        "direction": "",
+        "filename": "communication.png"
+    },
+    {
+        "name": "Utilities",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "health.png"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "BNGO",
+        "subname":"Bionano Genomics inc",
+        "value": 1.39,
+        "percentValue": 57.20,
+        "direction": "up"
+    },
+    {
+        "name": "AAPL",
+        "subname":"Apple inc",
+        "value": 135.355,
+        "percentValue": 0.98,
+        "direction": "down"
+    },
+    {
+        "name": "INTC",
+        "subname":"Intel Inc",
+        "value": 1.39,
+        "percentValue": 57.20,
+        "direction": "up"
+    },
+    {
+        "name": "GEVO",
+        "subname":"Gevo Inc",
+        "value": 135.355,
+        "percentValue": 0.98,
+        "direction": "down"
+    },
+    {
+        "name": "FCELL",
+        "subname":"Fuelcell Energy Inc",
+        "value": 1.39,
+        "percentValue": 57.20,
+        "direction": "up"
+    },
+    {
+        "name": "SNAP",
+        "subname":"Snap Inc Class A",
+        "value": 135.355,
+        "percentValue": 0.98,
+        "direction": "down"
+    },
+    {
+        "name": "AAL",
+        "subname":"American Airline Group Inc",
+        "value": 1.39,
+        "percentValue": 57.20,
+        "direction": "up"
+    },
+    {
+        "name": "Ocgn",
+        "subname":"Ocugen Inc",
+        "value": 135.355,
+        "percentValue": 0.98,
+        "direction": "down"
+    },
+    {
+        "name": "PLTR",
+        "subname":"Palantir Technologies Inc Class A",
+        "value": 1.39,
+        "percentValue": 57.20,
+        "direction": "up"
+    },
+    {
+        "name": "GE",
+        "subname":"General Electric Co.",
+        "value": 135.355,
+        "percentValue": 0.98,
+        "direction": "down"
+    }
+]

@@ -1,0 +1,175 @@
+<div class="container">
+    <a routerLink="/news">Go to News</a>
+    <div class="row">
+        <div class="col-md-12">
+            <span class="grey-1 capitalize">Market View</span>
+            <p class="head-1">Today's market briefing</p>
+        </div>
+    </div>
+    <div  class="row">
+          <div class="col-md-12">
+            <div class="wrapper">
+                <span class="BN-container" *ngFor="let stock of stocks">
+                    <span class="BN-top1">
+                        <span class="bold">{{stock.name}}</span>
+                        <span class="BN-sub1">{{stock.subname}}</span>
+                    </span>
+                    <span class="BN-down1">
+                            <span class="bold">{{stock.value}}</span>
+                            <span class="BN-sub4 positive" 
+                                *ngIf="stock.direction == 'up'">
+                                +{{stock.percentValue}}%
+                            </span>
+                            <span class="BN-sub4 negative" 
+                                *ngIf="stock.direction == 'down'">
+                                -{{stock.percentValue}}%
+                            </span>
+                    </span>
+                </span>
+            </div>
+          </div>   
+    </div>
+    <div class="row">
+        <div class="col-md-12 subtitle-activeup">
+            <span class="active-update">Active stacks last updated Dec 29 2020</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-md-12">
+                <div class="sectorhighlight-wrapper">
+                        <div class="sectorhighlight-div">
+                                <span class="head-1">Sector Highlights</span>
+                                <span class="grey-1 capitalize">Dec 29 2020 9:10:28pm</span>
+                        </div>
+                        <div class="mywatchlist-div">
+                                <span class="head-1 mywatchlist">My Watchlist</span><span class="fa fa-star"></span>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="healthcare-overlay">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="industrial-overlay">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mywatchlist-text">
+                        <span>Your watchlist is empty. Build your watchlist by starrin(<span class="fa fa-star checked"></span>) the stocks you want to follow</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                   <div class="col-md-8">
+                        <div class="exdividends-wrapper">
+                                <div class="exdividends-div">
+                                        <span class="head-1">Ex-Dividends</span>
+                                </div>
+                        </div>
+                   </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-8">
+                         <div class="exdividends-wrapper">
+                                 <div class="exdividends-div">
+                                         <span class="grey-1 capitalize">Symbol</span>
+                                 </div>
+                                 <div class="exdividends-div">
+                                     <span class="grey-1 exdividends-div1">Amount</span>
+                                 </div>
+                         </div>
+                    </div>
+             </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="exdividends-div">
+                        <span class="grey-1 ">There are no upcoming dividends</span>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr />
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="earnings-div">
+                            <span class="head-1">Earning</span>
+                    </div>
+            </div>
+        </div> 
+        <div class="row">
+                <div class="col-md-12">
+                        <div class="earnings-div">
+                                <span class="grey-1">Symbol</span>
+                                <span class="grey-1">Company</span>
+                                <span class="grey-1">Fiscal Period</span>
+                                <span class="grey-1">Consensus Estimated EPS</span>
+                                <span class="grey-1">Actual EPS</span>
+                                <span class="grey-1">Suprise</span>
+                                <span class="grey-1">EPS Year Ago</span>
+                                <span class="grey-1">% Change From Last Year</span>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                        <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr />
+                </div>
+            </div> 
+            <div class="row">
+                    <div class="col-md-8">
+                        <div class="sectorhighlight-wrapper">
+                                <div class="sectorhighlight-div">
+                                        <span class="head-1">Sector Highlights</span>
+                                        <span class="grey-1 capitalize">Dec 29 2020 9:10:28pm</span>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 overlay-wrap-col" *ngFor="let sector of sectors">
+                    <div class="overlay-wrapper">
+                        <img [src]="'/assets/img/'+sector.filename" 
+                                [alt]="sector.filename" width="100%" height="100%" />
+                        <span class="overlay-head-text bold">{{sector.name}}</span>
+                        <span class="overlay-foot-text bg-green" 
+                            *ngIf="sector.direction == 'plus'">+{{sector.percentValue}}</span>
+                        <span class="overlay-foot-text bg-grey-1"
+                            *ngIf="sector.direction == ''">{{sector.percentValue}}</span>
+                        <span class="overlay-foot-text bg-red" 
+                            *ngIf="sector.direction == 'minus'">-{{sector.percentValue}}</span>
+                    </div>
+                </div>
+            </div>
+</div>
