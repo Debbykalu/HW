@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Materials",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Materials.png"
+    },
+    {
+        "name": "Technology",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Technology.png"
+    }
+]

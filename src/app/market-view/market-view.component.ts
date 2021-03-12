@@ -3,6 +3,8 @@ import { ChakaService } from '../chaka.service';
 import { Stock } from '../stock.model';
 import { Sector } from '../sector.model';
 
+
+
 @Component({
   selector: 'app-market-view',
   templateUrl: './market-view.component.html',
@@ -11,12 +13,14 @@ import { Sector } from '../sector.model';
 export class MarketViewComponent implements OnInit {
   stocks:Stock[] = []
   sectors:Sector[] = []
+  mysectors:Sector[] = []
   constructor(private _service: ChakaService){
 
   }
   ngOnInit():void{
     this.getStocks();
     this.getSectors();
+    this.getMySectors();
   }
   getStocks() {
     this._service.getStocks().subscribe((stocks:Stock[]) => {
@@ -28,5 +32,9 @@ export class MarketViewComponent implements OnInit {
       this.sectors = sectors;
   });
   }
-
+  getMySectors(){
+    this._service.getSectors().subscribe((mysectors:Sector[]) => {
+      this.mysectors = mysectors;
+  });
+  }
 }

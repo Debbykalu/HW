@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import stocks_data from '../assets/stocks.json';
 import sectors_data from '../assets/sectors.json';
 import news_data from '../assets/news.json';
+import mysectors_data from '../assets/mysectors.json'
 
 import {Stock} from './stock.model';
 import {Sector} from './sector.model';
@@ -21,6 +22,9 @@ export class ChakaService {
   }
   public getSectors():Observable<Sector[]>{
     return of(sectors_data);
+  }
+  public getMySectors():Observable<Sector[]>{
+    return of(mysectors_data);
   }
   public getNews():Observable<News[]>{
     return of(news_data);

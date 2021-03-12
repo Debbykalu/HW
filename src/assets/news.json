@@ -1,20 +1,20 @@
 [
     {
-        "filename": "news-one.png",
-        "name": "Biono Genomics",
+        "filename": "health.png",
+        "name": "Biono Genomics (NASDAQ:BNGO) Share Price is Down 55% Over the Previous yr",
         "date": "06/12/2020",
         "time": "15:42:23",
         "subname": "Fintec Zoom",
-        "description": "Biono Genomics Biono Genomics Biono Genomics",
+        "description": "Biono Genomics (NASDAQ:BNGO) Share Price is Down 55% Over the Previous yr",
         "related": ["BNGO"]
     },
     {
-        "filename": "news-one.png",
-        "name": "Biono Genomics Share Price is Down 55% Over the",
+        "filename": "communication.png",
+        "name": "Biono Genomics (NASDAQ:BNGO) Share Price is Down 55% Over the Previous yr",
         "date": "06/12/2020",
         "time": "15:42:23",
-        "subname": "Fintec Zoom",
-        "description": "Biono Genomics Biono Genomics Biono Genomics",
+        "subname": "Yahoo Finance",
+        "description": "Biono Genomics,Inc has been upgraded to a Zacks Rank 2(Buy), reflecting growing optimism about the company's earning prospect.This might drive the sto...",
         "related": ["BNGOW", "BNGO"]
     }
 ]

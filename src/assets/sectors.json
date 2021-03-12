@@ -15,6 +15,36 @@
         "name": "Utilities",
         "percentValue": "0.007%",
         "direction": "minus",
-        "filename": "health.png"
+        "filename": "Real-estate.png"
+    },
+    {
+        "name": "Consumer Discretionary",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Consumer.png"
+    },
+    {
+        "name": "Finacials",
+        "percentValue": "0.40%",
+        "direction": "minus",
+        "filename": "Financials.png"
+    },
+    {
+        "name": "Consumer Staples",
+        "percentValue": "0.00%",
+        "direction": "minus",
+        "filename": "Consumer.png"
+    },
+    {
+        "name": "Materials",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Materials.png"
+    },
+    {
+        "name": "Technology",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Technology.png"
     }
 ]

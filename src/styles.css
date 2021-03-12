@@ -1,12 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #ffffff !important;
+}
+
+.market-view-wrapper{
+    padding: 75px 0;
+}
+ .market-view-wrapper .capitalize{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 1em !important;
+}
+.market-view-wrapper .main-head{
+    font-size: 1.5em !important;
+}
 .bold{
     font-weight: bold;
+    font-size: 1.2em !important;
 }
 .head-1{
     font-weight: bold;
+    font-size: 1.2em !important;
 }
 .grey-1{
-    color: #ddd;
+    color: #B9C1C6;
+    font-size: 1em !important;
 }
 .wrapper{
     display: flex;
@@ -17,14 +37,13 @@
 .BN-container{
     border: 1px solid #eeececd9;;
     background: #cccccc42;
-    padding:10px 15px 30px 15px;
+    padding: 10px 5px 10px 15px;
     display: flex;
     flex-direction: column;
-    height: 230px;
+    height: 220px;
     justify-content: space-between;
     margin-right: 10px;
-    width: 120px;
-    font-size: 12px;
+    width: 100%;
 }
 .BN-top1, .BN-down1{
     display: flex;
@@ -35,9 +54,14 @@
 }
 .positive{
     color: #35c835;
+    font-size: 0.75em;
 }
 .negative{
     color:red;
+    font-size: 0.75em;
+}
+.BN-sub1{
+    font-size: 0.75em;
 }
 .BN-top2, .BN-down2{
     display: flex;
@@ -80,26 +104,43 @@
 }
  
 .mywatchlist-div .mywatchlist{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .mywatchlist-text .checked{
     color: blue;
+}
+.mywatchlist-text{
+    color: #66696c;
 }
 .exdividends-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid #ebdfdf;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 .exdividends-wrapper .exdividends-div span{
     display: block;
+}
+.exdividends-div{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.exdividends-div span{
+    color: #66696c !important;
 }
 .earnings-div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid #ebdfdf;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 .earnings-div span{
     display: block;
+    color: #66696c !important;
 }
 .overlay-wrapper{
     position:relative;
@@ -111,11 +152,11 @@
 }
 .overlay-head-text{
     position: absolute;
-    top:20px;
+    top:8px;
     left:10px;
     color:#fff;
     z-index: 10;
-    font-size: 18px;
+    font-size: 1em !important;
 }
 .overlay-foot-text{
     position: absolute;
@@ -135,4 +176,62 @@
 }
 .bg-grey-1{
     background-color: grey;
+}
+.market-view-wrapper{
+    background: #fcfcfc;
+    box-shadow: 1px 13px 1px 1px #eadfdf;
+    max-width: 100%;
+    padding: 20px;
+}
+
+
+.news-inner-wrapper .news-images{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.news-detail-texts{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.pagemovt{
+    margin: 28px 20px;
+    background: #eee;
+    padding: 20px;
+    box-shadow: 1px 1px 22px 0px #7e7676;
+}
+.pagemovt a {
+    color: #f8f8f8;
+    background: orange;
+    padding: 8px 15px;
+}
+.pagemovt a:hover{
+    color: #f8f8f8;
+    background: orange;
+    text-decoration: none;
+}
+.sectorhighlight-div{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.news-detail-texts .datelabel span{
+    padding-right: 5px;
+    color: #66696c !important;
+}
+.news-detail-texts .news-bold{
+    font-weight: bold;
+    font-size: 1.5em !important;
+}
+.news-detail-texts .news-desc{
+    color: #66696c !important;
+}
+.news-detail-texts .news-related-wrap{
+    padding-top: 10px;
+}
+.news-detail-texts .news-related-wrap .news-related{
+    margin: 10px;
+    padding: 4px 10px;
+    background-color: #ccc;
 }

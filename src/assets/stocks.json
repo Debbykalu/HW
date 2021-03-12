@@ -15,7 +15,7 @@
     },
     {
         "name": "INTC",
-        "subname":"Intel Inc",
+        "subname":"Intel Corp",
         "value": 1.39,
         "percentValue": 57.20,
         "direction": "up"
@@ -36,7 +36,7 @@
     },
     {
         "name": "SNAP",
-        "subname":"Snap Inc Class A",
+        "subname":"Snap Inc-Class A",
         "value": 135.355,
         "percentValue": 0.98,
         "direction": "down"
@@ -57,7 +57,7 @@
     },
     {
         "name": "PLTR",
-        "subname":"Palantir Technologies Inc Class A",
+        "subname":"Palantir Technologies Inc-Class A",
         "value": 1.39,
         "percentValue": 57.20,
         "direction": "up"
