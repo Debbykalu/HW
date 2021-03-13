@@ -1,0 +1,669 @@
+@import "variables";
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+.hero-section {
+  .tab-content {
+    min-height: 204px;
+    background-color: rgba($info, 0.8);
+    border-radius: 0 .25rem .25rem .25rem;
+
+    // booking flight
+    .book-flight {
+      margin-top: 19px;
+
+      &.form-row>[class*=col-] {
+        padding-right: 8px;
+        padding-left: 8px;
+      }
+
+      .dropdown-menu {
+        transform: translate3d(0px, 65px, 0px) !important;
+      }
+    }
+
+    .input-select-dropdown {
+
+      .passenger-btn {
+        padding: 8px 19px 8px 12px;
+        color: $white;
+        background-color: rgba($white, 0.1) !important;
+        border: none;
+        box-shadow: none !important;
+        border-radius: 3px;
+        font-weight: $font-weight-medium;
+        line-height: 16px;
+
+        &.dropdown-toggle::after {
+          border-width: 5px 5px 0 5px;
+          margin-left: 11px;
+          position: relative;
+          top: 2px;
+        }
+      }
+
+      &.show {
+        .dropdown-toggle::after {
+          border-top: 0;
+          border-bottom: 5px solid;
+        }
+      }
+
+      .dropdown-item {
+        padding: 9px 14px;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+
+
+      .dropdown-menu {
+        border: 1px solid $gray-300;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+
+        &.dropdown-menu-md {
+          min-width: 250px;
+          transform: translate3d(0px, 32px, 0px) !important;
+        }
+
+        .passenger-input-touchspin {
+          .form-control {
+            height: 32px;
+            padding: 4px;
+            font-weight: $font-weight-medium;
+            border: none;
+            text-align: center;
+            color: $dark;
+          }
+
+          .btn {
+            padding: 4px 8px;
+            border-radius: 2px;
+
+            &.minus-btn {
+              background-color: $gray-100;
+            }
+
+            &.plus-btn {
+              background-color: #deebff;
+              color: $dark;
+            }
+          }
+        }
+      }
+    }
+
+
+    .flight-location {
+
+      .dropdown-menu {
+
+        &::before {
+          width: 46% !important;
+        }
+
+        .dropdown-item-text {
+          padding: 8px 16px;
+          text-transform: uppercase;
+          font-size: 12px;
+          color: $body-color;
+          background: rgba($info, 0.05);
+        }
+
+        .row {
+          margin: 0;
+        }
+
+        .dropdown-item {
+          background-color: transparent;
+          padding: 8px 0px;
+          color: $dark;
+        }
+
+        @media (max-width: 575.98px) {
+          max-height: 180px;
+          overflow-y: auto;
+        }
+
+      }
+    }
+
+    .flight-location,
+    .flight-destination {
+      .dropdown-btn {
+        color: $body-color !important;
+      }
+    }
+
+    .flight-destination {
+      .dropdown-menu {
+        @media (min-width: 992px) {
+          min-width: 360px !important;
+          max-height: 327px;
+        }
+
+        max-height: 200px;
+        overflow-y: auto;
+
+        &::before {
+          width: 70% !important;
+        }
+      }
+
+      .dropdown-item {
+        padding: 9px 14px;
+
+        .destination-code {
+          padding: 4px 10px;
+          color: $dark;
+          border: 0.5px solid $body-color;
+          border-radius: 3px;
+        }
+
+        .destination-place {
+          font-weight: normal;
+        }
+
+        &:hover {
+          background: rgba($info, 0.05);
+          color: $body-color;
+
+          .destination-code {
+            color: $info;
+            border: 0.5px solid $info;
+          }
+        }
+      }
+    }
+
+    .dropdown-btn {
+      &.dropdown-btn-arrow-none {
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    .flight-destination {
+      .dropdown-menu {
+        @media (min-width: 992px) {
+          min-width: 360px !important;
+          max-height: 327px;
+        }
+
+        max-height: 200px;
+        overflow-y: auto;
+
+        &::before {
+          width: 70% !important;
+        }
+      }
+
+      .dropdown-item {
+        padding: 9px 14px;
+
+        .destination-code {
+          padding: 4px 10px;
+          color: $dark;
+          border: 0.5px solid $body-color;
+          border-radius: 3px;
+        }
+
+        .destination-place {
+          font-weight: normal;
+        }
+
+        &:hover {
+          background: rgba($info, 0.05);
+          color: $body-color;
+
+          .destination-code {
+            color: $info;
+            border: 0.5px solid $info;
+          }
+        }
+      }
+    }
+
+    .dropdown-btn {
+      &.dropdown-btn-arrow-none {
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    .fromwhereInput {
+      position: relative;
+
+      &::after {
+        content: "\F4E1";
+        font-family: "Material Design Icons";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -27px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 26px;
+        background-color: $info;
+        color: $white;
+        z-index: 9;
+
+        @media (max-width: 575.98px) {
+          display: none;
+        }
+      }
+    }
+
+    .way-select {
+      .ng-select .ng-select-container {
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
+
+    .ng-select {
+      .ng-arrow-wrapper {
+        padding-right: 0px;
+        left: 3px;
+
+        .ng-arrow {
+          border-color: $white transparent transparent;
+        }
+      }
+
+      &.ng-select-opened>.ng-select-container .ng-arrow {
+        border-color: transparent transparent $white;
+      }
+
+      .ng-select-container {
+        height: 32px;
+        min-height: 32px;
+        padding: 8px 12px;
+        color: $white;
+        background-color: rgba($white, 0.1);
+        border: none;
+        font-weight: $font-weight-medium;
+        font-size: $font-size-base;
+        box-shadow: none;
+        line-height: 16px;
+        padding-right: 15px;
+
+        input {
+          display: none !important;
+        }
+
+        .ng-value-container {
+          padding-left: 0px;
+        }
+      }
+    }
+
+    .ng-dropdown-panel {
+      border: 1px solid $gray-300;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+      border-radius: 3px;
+      min-width: 185px;
+
+      .ng-option {
+        color: $body-color;
+        position: relative;
+        width: 100%;
+        display: block;
+        overflow: visible;
+        cursor: pointer;
+
+      }
+    }
+
+    .select-md {
+      .ng-option {
+        padding: 9px 25px 9px 39px;
+        line-height: 14px;
+        font-family: 'Arimo', sans-serif;
+
+        &:hover {
+          color: $dark;
+          background: rgba($info, 0.05);
+        }
+
+        &.ng-option-selected {
+          color: $dark;
+          background: rgba($info, 0.05);
+
+          &:before {
+            content: "\F12C";
+            font-family: "Material Design Icons";
+            position: absolute;
+            left: 14px;
+            color: $info;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .way-select {
+      .selectize-input {
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
+
+    .selectize-control {
+      &.selectize-md {
+
+        .option {
+          padding: 9px 25px 9px 39px;
+
+          &.active {
+            color: $dark;
+
+            &::before {
+              content: "\F12C";
+              font-family: "Material Design Icons";
+              position: absolute;
+              left: 14px;
+              color: $info;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+
+      &.single {
+        .selectize-input {
+
+          &:after {
+            border-color: $white transparent transparent transparent;
+            right: 19px;
+          }
+
+          &.dropdown-active {
+            &:after {
+              border-color: transparent transparent $white transparent;
+            }
+          }
+        }
+      }
+    }
+
+    .hero-custom-input {
+      .input-daterange {
+        input:last-child {
+          border-radius: 0 3px 3px 0;
+        }
+
+        .icon-input {
+          label {
+            left: 50px;
+          }
+
+          .form-control {
+            border-radius: 3px 0 0 3px;
+            padding-left: 50px;
+          }
+
+          .calendar-icon {
+            position: absolute;
+            top: 22px;
+            left: 16px;
+            color: $info;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .hero-submit-btn {
+      min-width: 126px;
+      box-shadow: none;
+    }
+
+
+    // Find Hotels
+
+    .dropdown-input {
+      .dropdown-btn {
+        width: 100%;
+        background-color: $white !important;
+        box-shadow: none;
+        border-radius: 3px;
+        color: $dark;
+        border-color: $gray-300;
+        text-align: left;
+        padding: 31px 18px 11px;
+        font-size: 16px;
+
+        &:before {
+          content: "\F140";
+          position: absolute;
+          font-family: "Material Design Icons";
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 18px;
+          right: 14px;
+        }
+      }
+
+
+      .dropdown-menu {
+        &::before {
+          content: "";
+          position: absolute;
+          top: -1px;
+          left: 0px;
+          width: 78%;
+          height: 2px;
+          background-color: $primary;
+
+        }
+      }
+
+      &.room-guest-dropdown {
+        .dropdown-menu {
+          padding: 16px;
+          transform: translate3d(0px, 65px, 0px) !important;
+
+          .dropdown-item-text {
+            padding: 9px 0;
+            color: $body-color;
+          }
+
+          .dropdown-item {
+            padding: 9px 0px;
+          }
+
+          .dropdown-divider {
+            border-top-style: dashed;
+          }
+        }
+      }
+
+      &.traveldate-dropdown {
+        .dropdown-menu {
+          width: 100%;
+          padding: 25px;
+          transform: translate3d(0px, 65px, 0px) !important;
+
+          &::before {
+            width: 100%;
+          }
+
+          .dropdown-item {
+            padding: 5px 0;
+          }
+        }
+      }
+
+      &.themes-dropdown {
+        .dropdown-menu {
+
+          &::before {
+            width: 48%;
+          }
+
+          .dropdown-item {
+            white-space: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ng-dropdown-panel {
+  .ng-dropdown-panel-items {
+
+    .ng-option.ng-option-selected .ng-option-label,
+    .ng-option.ng-option-selected.ng-option-marked .ng-option-label {
+      font-weight: normal;
+    }
+  }
+}
+
+.ng-dropdown-panel {
+  padding: 8px 0px;
+}
+
+// datepicker
+ngb-datepicker {
+  background-color: $white;
+  position: absolute;
+  z-index: 99;
+  color: $dark !important;
+  padding: 26px 11px !important;
+  top: 65px;
+}
+
+ngb-datepicker-navigation-select>.custom-select {
+  margin: 0 5px;
+}
+
+.ngb-dp-header,
+.ngb-dp-month-name {
+  background-color: transparent !important;
+}
+
+.ngb-dp-weekdays {
+  border-color: transparent !important;
+  background-color: transparent !important;
+
+  .ngb-dp-weekday {
+    color: $dark;
+    font-size: 14px;
+    font-style: normal;
+  }
+}
+
+.ngb-dp-day {
+  outline: 0;
+}
+
+.ngb-dp-arrow-btn {
+  font-size: 10px;
+  color: $body-color;
+  padding: 0 1rem !important;
+  outline: 0 !important;
+}
+
+.ngb-dp-navigation-chevron {
+  border-width: .5px .5px 0 0 !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.ngb-dp-navigation-select {
+  display: none !important;
+}
+
+.ngb-dp-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 22px;
+}
+
+.ngb-dp-months {
+  position: relative;
+
+  .ngb-dp-month-name {
+    margin-bottom: 7px;
+  }
+}
+
+
+// Date Range
+.custom-day {
+  line-height: 2rem;
+  padding: 0 !important;
+  outline: none !important;
+
+  &:hover {
+    background-color: $info !important;
+    border-radius: 2px;
+    color: $white;
+  }
+
+  &.range {
+    background-color: $info !important;
+    border-radius: 2px;
+  }
+
+  &.range.faded {
+    background-color: rgba($info, 0.05) !important;
+    color: $dark !important;
+  }
+}
+
+
+.list-group-horizontal-sm {
+  .btn {
+    padding: 11px 9px;
+    color: $body-color;
+    line-height: 16px;
+  }
+}
+
+.list-group-item.active {
+  color: $white;
+  background-color: $info;
+  border-color: $info;
+}
+
+// Slider
+.ng5-slider {
+  .ng5-slider-pointer {
+    background-color: $info !important;
+    width: 18px !important;
+    height: 18px !important;
+    top: -7px !important;
+    outline: none !important;
+
+    &:after {
+      top: 5px !important;
+      left: 5px !important;
+    }
+  }
+
+  .ng5-slider-active {
+    &:after {
+      background-color: $white !important;
+    }
+  }
+
+  .ng5-slider-selection {
+    background: $info !important;
+  }
+
+  .ng5-slider-bubble {
+    font-size: 12px !important;
+    padding: 1px 10px !important;
+  }
+}
