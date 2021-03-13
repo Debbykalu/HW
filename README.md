@@ -28,11 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## URL
 To access the application in the browser,
-url = https://604a57eb12f7b70813345ff4--goofy-hodgkin-523b5b.netlify.app/
+url = https://604ce4c4b5051725725b3c6d--goofy-hodgkin-523b5b.netlify.app/
 
 ## ROUTING 
 To route to page 1 and page 3,
 url - /market(page 1)
-https://604a57eb12f7b70813345ff4--goofy-hodgkin-523b5b.netlify.app/market
+https://604ce4c4b5051725725b3c6d--goofy-hodgkin-523b5b.netlify.app/market
 url - /news(page 2)
-https://604a57eb12f7b70813345ff4--goofy-hodgkin-523b5b.netlify.app/news
+https://604ce4c4b5051725725b3c6d--goofy-hodgkin-523b5b.netlify.app/news
