@@ -1,6 +1,6 @@
 [
     {
-        "filename": "health.png",
+        "filename": "Consumer.png",
         "name": "Biono Genomics (NASDAQ:BNGO) Share Price is Down 55% Over the Previous yr",
         "date": "06/12/2020",
         "time": "15:42:23",
@@ -10,11 +10,47 @@
     },
     {
         "filename": "communication.png",
-        "name": "Biono Genomics (NASDAQ:BNGO) Share Price is Down 55% Over the Previous yr",
-        "date": "06/12/2020",
-        "time": "15:42:23",
+        "name": "Biono Genomics (BNGO) Share Price is Down 55% Over the Previous yr",
+        "date": "02/10/2020",
+        "time": "17:00:04",
         "subname": "Yahoo Finance",
         "description": "Biono Genomics,Inc has been upgraded to a Zacks Rank 2(Buy), reflecting growing optimism about the company's earning prospect.This might drive the sto...",
+        "related": ["BNGOW", "BNGO"]
+    },
+    {
+        "filename": "Financials.png",
+        "name": "Biono Genomics (BNGO) Upgraded to Buy: Here's why",
+        "date": "31/08/2020",
+        "time": "17:00:04",
+        "subname": "Yahoo Finance",
+        "description": "Biono Genomics,Inc might move higher on growing optimism about it's earnings prospect which is reflected by its upgrade to a Zacks Rank 2(Buy)",
+        "related": ["BNGOW", "BNGO"]
+    },
+    {
+        "filename": "Energy.png",
+        "name": "Biono Genomics Reports Second Quarter 2020 Financial Results and Provides Business Update | Marketscreener",
+        "date": "13/08/2020",
+        "time": "22:09:02",
+        "subname": "Marketscreener",
+        "description": "SAN DIEGO Aug. 13, 2020 -- Biono Genomics,Inc A life sciences instrumentation company that develop and market saphyr, a platform for Ultra-sensitive and ul...  ",
+        "related": ["BNGOW", "BNGO"]
+    },
+    {
+        "filename": "Materials.png",
+        "name": "Biono Genomics Reports Second Quarter 2020 Financial Results and Provides Business Update ",
+        "date": "13/08/2020",
+        "time": "18:06:00",
+        "subname": "Bensinga",
+        "description": "SAN DIEGO Aug. 13, 2020 -- (GLOBAL NEWSWIRE) Biono Genomics,Inc A life sciences instrumentation company that develop and markets...",
+        "related": ["BNGOW", "BNGO"]
+    },
+    {
+        "filename": "Real-estate.png",
+        "name": "Thinking about buying stock in BioNano Genomics, Conduent Inc,OpGen Inc, Uber Technology or MGM Resorts",
+        "date": "07/08/2020",
+        "time": "16:36:00",
+        "subname": "PR Newswire",
+        "description": "SAN DIEGO Aug. 13, 2020 -- (GLOBAL NEWSWIRE) Biono Genomics,Inc A life sciences instrumentation company that develop and markets...",
         "related": ["BNGOW", "BNGO"]
     }
 ]

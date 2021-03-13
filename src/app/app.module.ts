@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'; 
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { NavbarModule, WavesModule, ButtonsModule } from 'angular-bootstrap-md'
 
 import { AppComponent } from './app.component';
 import { MarketViewComponent } from './market-view/market-view.component';
@@ -16,7 +17,9 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+   HttpClientModule,
+    NavbarModule, WavesModule, ButtonsModule
   ],
   providers: [
   ],

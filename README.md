@@ -31,8 +31,8 @@ To access the application in the browser,
 url = https://604a57eb12f7b70813345ff4--goofy-hodgkin-523b5b.netlify.app/
 
 ## ROUTING 
-To route to the news page which is page 3,
-url - /market
+To route to page 1 and page 3,
+url - /market(page 1)
 https://604a57eb12f7b70813345ff4--goofy-hodgkin-523b5b.netlify.app/market
-url - /news
+url - /news(page 2)
 https://604a57eb12f7b70813345ff4--goofy-hodgkin-523b5b.netlify.app/news

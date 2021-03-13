@@ -3,7 +3,7 @@
         "name": "Health Care",
         "percentValue": "0.40%",
         "direction": "plus",
-        "filename": "health.png"
+        "filename": "Healthcare.png"
     },
     {
         "name": "Communication Services",
@@ -15,7 +15,7 @@
         "name": "Utilities",
         "percentValue": "0.007%",
         "direction": "minus",
-        "filename": "Real-estate.png"
+        "filename": "Utilities.png"
     },
     {
         "name": "Consumer Discretionary",
@@ -46,5 +46,23 @@
         "percentValue": "0.007%",
         "direction": "minus",
         "filename": "Technology.png"
+    },
+    {
+        "name": "Real Estate",
+        "percentValue": "0.00%",
+        "direction": "minus",
+        "filename": "Real-estate.png"
+    },
+    {
+        "name": "Energy",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Energy.png"
+    },
+    {
+        "name": "Industrials",
+        "percentValue": "0.007%",
+        "direction": "minus",
+        "filename": "Industrial.png"
     }
 ]
