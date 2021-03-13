@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChakaService } from '../chaka.service';
-import { News } from '../news.model';
+import { News } from '../models/news.model';
 
 @Component({
   selector: 'app-news',

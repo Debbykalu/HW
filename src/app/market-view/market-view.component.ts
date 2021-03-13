@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ChakaService } from '../chaka.service';
-import { Stock } from '../stock.model';
-import { Sector } from '../sector.model';
+import { Stock } from '../models/stock.model';
+import { Sector } from '../models/sector.model';
 
 
 

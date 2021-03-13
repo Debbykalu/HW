@@ -6,9 +6,9 @@ import sectors_data from '../assets/sectors.json';
 import news_data from '../assets/news.json';
 import mysectors_data from '../assets/mysectors.json'
 
-import {Stock} from './stock.model';
-import {Sector} from './sector.model';
-import {News} from './news.model';
+import {Stock} from './models/stock.model';
+import {Sector} from './models/sector.model';
+import {News} from './models/news.model';
 
 @Injectable({
   providedIn: 'root'
